@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://tiagogasperin.com.br//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tiagogasperin.com.br//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tiagogasperin.com.br//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://tiagogasperin.com.br//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://tiagogasperin.com.br//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    Máquina para detectar anjos (protótipo #1) | Tiago Gasperin
+    
+</title>
+
+<link rel="canonical" href="https://tiagogasperin.com.br/posts/20221026-m%C3%A1quina-para-detectar-anjos-prot%C3%B3tipo1/"/>
+
+<meta property="og:url" content="https://tiagogasperin.com.br/posts/20221026-m%C3%A1quina-para-detectar-anjos-prot%C3%B3tipo1/">
+  <meta property="og:site_name" content="Tiago Gasperin">
+  <meta property="og:title" content="Máquina para detectar anjos (protótipo #1)">
+  <meta property="og:description" content="Como comprovar a existência de algo do qual não temos ideia de quais as métricas para sua comprovação?
+Há alguns anos, no livro “Torcicologologista, Excelência”, de Gonçalo Tavares, encontrei a seguinte passagem:
+— A questão, Excelência, é outra. Repare que a tecnologia contemporânea não tenta construir uma máquina que, em vez de detectar pássaros e as suas migrações, detecte anjos.
+— Anjos?
+— Sim. Como não se acredita em anjos não se constroem máquinas para os detectar, e como não se constroem máquinas para detectar a posição dos anjos nunca se detectarão anjos e assim nunca se acreditará neles e assim nunca se construirão máquinas paras os detectar porque não se acredita que eles existam e assim…
+— Alto! Já entendi. É um círculo vicioso.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-10-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-10-26T00:00:00+00:00">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.9bf37abbe7a818c58d7205ea82138a52efe7ebb92d236b9b144507532c649cd9.css" media="all">
+
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="light">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="https://tiagogasperin.com.br/">Tiago Gasperin</a>
+    </h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="/" >
+                /início
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/projetos" >
+                /projetos
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/posts" >
+                /blog
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/sobre" >
+                /sobre
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/cv-bio" >
+                /cv-bio
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">Máquina para detectar anjos (protótipo #1)</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2022-10-26T00:00:00&#43;00:00">26.10.2022</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    
+
+
+<figure >
+  
+    
+    <img src="/img/maquinas-detectar-anjos-2_hu_511f56c6b3408cf8.jpg"  />
+    
+    
+</figure>
+
+<p>Como comprovar a existência de algo do qual não temos ideia de quais as métricas para sua comprovação?</p>
+<p>Há alguns anos, no livro “Torcicologologista, Excelência”, de Gonçalo Tavares, encontrei a seguinte passagem:</p>
+<blockquote>
+<p>— A questão, Excelência, é outra. Repare que a tecnologia contemporânea não tenta construir uma máquina que, em vez de detectar pássaros e as suas migrações, detecte anjos.<br>
+— Anjos?<br>
+— Sim. Como não se acredita em anjos não se constroem máquinas para os detectar, e como não se constroem máquinas para detectar a posição dos anjos nunca se detectarão anjos e assim nunca se acreditará neles e assim nunca se construirão máquinas paras os detectar porque não se acredita que eles existam e assim…<br>
+— Alto! Já entendi. É um círculo vicioso.</p>
+</blockquote>
+<p>Desde então, penso sobre como seria uma máquina criada para a detecção da presença e posição de seres angelicais. Uma máquina capaz de nos mostrar resultados para perguntas que nem sabemos ao certo quais são.</p>
+<p>Ao contrário dos pássaros citados no texto de Tavares, dos quais temos noção concreta de como detectar (tamanho, cor, som, forma), os possíveis aspectos detectáveis de um anjo são desconhecidos. Assim, qualquer resultado produzido por um aparelho desse tipo, estaria aberto a interpretação de seu observador.</p>
+<p>Em um experimento poético construí a Máquina para detectar anjos (protótipo #1). Ela é composta de:</p>
+<ul>
+<li>Uma maleta executiva adaptada;</li>
+<li>Um microcontrolador Arduino UNO;</li>
+<li>6 resistores de 10 mega ohm;</li>
+<li>Cabos e conectores;</li>
+<li>Uma caixa de som;</li>
+<li>Um ventilador;</li>
+<li>Uma antena;</li>
+<li>Uma planta;</li>
+<li>Um copo para colocar a planta;</li>
+<li>Sal;</li>
+<li>Velas;</li>
+<li>Um suporte de cerâmica para as velas;</li>
+<li>Caixas de fósforo;</li>
+<li>Um baralho;</li>
+<li>Um cabo de energia;</li>
+<li>E um manual de operação.</li>
+</ul>
+
+
+
+<figure >
+  
+    
+    <img src="/img/maquinas-detectar-anjos-0_hu_db65d94329eb7b5f.jpg" alt="Lista de componentes do manual de operações." />
+    
+    
+      <figcaption>
+        <p>
+        Lista de componentes do manual de operações.
+        
+          
+        
+        </p> 
+      </figcaption>
+  
+</figure>
+
+<p>Os elementos eletrônicos são conectados em um circuito, que se assemelha ao de um sensor capacitivo (utilizado em aparelhos sensíveis ao toque). Esse circuito, no entanto, é modificado com um número de resistores elevado, deslocando sua percepção do nível do toque para o nível do ambiente, de modo que os dois terminais do sensor passam a atuar como uma espécie de receptor dos arredores. Ainda, um dos terminais é conectado a uma antena enquanto o outro é conectado a uma planta, tensionando ainda mais a exatidão da leitura que acontece ali. Desse modo, é gerado um resultado de saída (output) incomum e imprevisível, que regula a velocidade de um pequeno ventilador e, também, é transformado em sinais sonoros.</p>
+<p>O experimento, ainda, é composto de elementos potencialmente ritualísticos, que, ao contrário dos componentes eletrônicos, não desempenham uma função clara para o funcionamento da máquina. Eles são ativados juntos dos demais elementos nas etapas propostas pelo manual de operação e tratados como peças tão fundamentais quanto qualquer outra para o desempenho adequado do sistema.</p>
+<p>Aqui, é válido observar que a distinção entre elementos eletrônicos e ritualísticos não é clara. Alguns elementos, por vezes, podem estar assumindo as duas funções ao mesmo tempo. Assim, com a união desses componentes, proponho um circuito que tensiona a percepção sobre o que afeta, ou não, o output da máquina.</p>
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/199xBfVt5EQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>No esquema abaixo, exploro o que acredito serem as influências exercidas por cada elemento (interno ou externo à máquina) no resultado produzido por ela.</p>
+
+
+
+<figure >
+  
+    
+    <img src="/img/maquinas-detectar-anjos-1_hu_a49b7994b70d262a.jpg" alt="Lista de componentes do manual de operações." />
+    
+    
+      <figcaption>
+        <p>
+        Lista de componentes do manual de operações.
+        
+          
+        
+        </p> 
+      </figcaption>
+  
+</figure>
+
+<p>Voltando para o texto de Tavares, ele diz:</p>
+<blockquote>
+<p>Caro Século XXI: não mudes apenas de máquinas, muda de crenças. Se não o fizeres estarás sempre a descobrir a mesma coisa.</p>
+</blockquote>
+<p>Se a ciência contemporânea não passar a perceber conhecimentos para além de seus métodos estabelecidos, ela seguirá descobrindo as mesmas coisas e beneficiando os mesmos grupos. Se tecnologias ancestrais de grupos historicamente oprimidos não forem vistas como tal, seguiremos ignorando visões de mundo que muitas vezes conseguem uma existência mais harmônica e equilibrada com o meio que se inserem, do que o método de exploração ocidental e eurocêntrico. Se negarmos ou decidirmos não acreditar em problemas estruturais da nossa sociedade (como racismo, machismo e LGBTfobia) não iremos construir métricas para percebê-los e, por sua vez, aparatos sociais para repará-los.</p>
+<p><em>A Máquina para detectar anjos (protótipo #1)</em> é uma proposta de caráter bastante experimental, que ainda pode passar por muitas iterações no futuro. Porém, já com esse primeiro experimento, busco criar um tensionamento em relação aos métodos da ciência contemporânea e o que consideramos instintivamente como tecnologia. Busco entender caminhos para rompermos com diversos círculos viciosos.</p>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      voltar ao topo
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  <footer>
+    
+
+    
+    
+    
+    <p><a href="https://www.instagram.com/tiago.gasperin/">instagram</a> • <a href="mailto:tiagogasperin84@gmail.com">tiagogasperin84@gmail.com</a> • Tiago Gasperin © 2025</p>
+    
+
+
+  </footer>
+
+  
+
+</body>
+
+<script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+<script defer src="/js/copy-code.js"></script>
+</html>
