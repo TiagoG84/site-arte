@@ -46,7 +46,7 @@
 
 
 
-<link rel="stylesheet" href="/assets/combined.min.16537cc0b7fe7440ce5165803f8e49e0f39fa574d6bdbb108918aeed8f2a565c.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.2ffc7b188d230d30844f6abdddf0d7ba4c3c79e289fc117b42b3ff33c85342dc.css" media="all">
 
 <link rel="preconnect" href="https://rsms.me/">
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -95,15 +95,8 @@
         
       
         <p class="small ">
-            <a href="/projetos" >
-                /projetos
-            </a>
-        </p>
-        
-      
-        <p class="small ">
-            <a href="/posts" >
-                /blog
+            <a href="/exposi%c3%a7%c3%b5es" >
+                /exposições
             </a>
         </p>
         
@@ -116,8 +109,15 @@
         
       
         <p class="small ">
-            <a href="/cv-bio" >
-                /cv-bio
+            <a href="/cv" >
+                /currículo
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/bio" >
+                /bio
             </a>
         </p>
         
@@ -133,11 +133,14 @@
     <main class="main">
       
 
+
 <div class="list-container">
 
     
 
     <h1>Medidas</h1>
+
+
     
 
     
@@ -157,21 +160,39 @@
     
     
     
-    
 
     
 
-    <div class="hover_img">
+    <div class="menu_img">
         <p class="line-title">
             <a href="/projetos/autorretrato/">
-                Autorretrato
+                
                 <span><img src= "/img/autorretrato-2.png" alt="Autorretrato" /></span>
+                Autorretrato
+
             </a>
         </p>
-
+    
         
     </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hoverLinks = document.querySelectorAll(".hover_img a");
+
+    hoverLinks.forEach((link) => {
+      const preview = link.querySelector("span");
+      if (!preview) return;
+
+      link.addEventListener("mousemove", (e) => {
+        
+        preview.style.left = `${e.clientX}px`;
+        preview.style.top = `${e.clientY}px`;
+      });
+    });
+  });
+</script>
     
 
     
@@ -182,21 +203,39 @@
     
     
     
-    
 
     
 
-    <div class="hover_img">
+    <div class="menu_img">
         <p class="line-title">
             <a href="/projetos/tomarei-as-medidas-cabiveis/">
-                TOMAREI AS MEDIDAS CABÍVEIS
-                <span><img src= "/img/tomarei-as-medidas-1.jpg" alt="TOMAREI AS MEDIDAS CABÍVEIS" /></span>
+                
+                <span><img src= "/img/tomarei-as-medidas-1.jpg" alt="Tomarei as medidas cabíveis" /></span>
+                Tomarei as medidas cabíveis
+
             </a>
         </p>
-
+    
         
     </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hoverLinks = document.querySelectorAll(".hover_img a");
+
+    hoverLinks.forEach((link) => {
+      const preview = link.querySelector("span");
+      if (!preview) return;
+
+      link.addEventListener("mousemove", (e) => {
+        
+        preview.style.left = `${e.clientX}px`;
+        preview.style.top = `${e.clientY}px`;
+      });
+    });
+  });
+</script>
     
 
     
@@ -207,21 +246,39 @@
     
     
     
-    
 
     
 
-    <div class="hover_img">
+    <div class="menu_img">
         <p class="line-title">
             <a href="/projetos/ferramentas-para-medir-espacos/">
-                Ferramentas para medir espaços
+                
                 <span><img src= "/img/ferramentas-para-medir-espacos-5.jpg" alt="Ferramentas para medir espaços" /></span>
+                Ferramentas para medir espaços
+
             </a>
         </p>
-
+    
         
     </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hoverLinks = document.querySelectorAll(".hover_img a");
+
+    hoverLinks.forEach((link) => {
+      const preview = link.querySelector("span");
+      if (!preview) return;
+
+      link.addEventListener("mousemove", (e) => {
+        
+        preview.style.left = `${e.clientX}px`;
+        preview.style.top = `${e.clientY}px`;
+      });
+    });
+  });
+</script>
     
 
     
@@ -239,7 +296,7 @@
     
     
     
-    <p><a href="https://www.instagram.com/tiago.gasperin/">instagram</a> • <a href="mailto:tiagogasperin84@gmail.com">tiagogasperin84@gmail.com</a> • Tiago Gasperin © 2025</p>
+    <p><a href="https://www.instagram.com/tiago.gasperin/">instagram</a> • <a href="mailto:tiagogasperin84@gmail.com">tiagogasperin84@gmail.com</a> • Tiago Gasperin © 2026</p>
     
 
 
