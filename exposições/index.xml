@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>exposições on Tiago Gasperin</title>
-    <link>http://localhost:1313/exposi%C3%A7%C3%B5es/</link>
+    <link>https://tiagogasperin.com.br/exposi%C3%A7%C3%B5es/</link>
     <description>Recent content in exposições on Tiago Gasperin</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
-    <atom:link href="http://localhost:1313/exposi%C3%A7%C3%B5es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tiagogasperin.com.br/exposi%C3%A7%C3%B5es/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
